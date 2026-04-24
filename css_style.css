@@ -1,0 +1,114 @@
+/* =========================
+   STYLE SISTEM SERVICE LAPTOP PRO
+   ========================= */
+
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#f4f6f8;
+  color:#333;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
+
+/* HEADER */
+.header{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.logo{
+  width:90px;
+  height:90px;
+  object-fit:contain;
+  display:block;
+  margin:auto;
+}
+
+/* CARD */
+.card{
+  background:#fff;
+  padding:15px;
+  margin:15px 0;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* INPUT */
+input{
+  width:100%;
+  padding:10px;
+  margin:6px 0;
+  border:1px solid #ddd;
+  border-radius:6px;
+  outline:none;
+}
+
+input:focus{
+  border-color:#007bff;
+}
+
+/* BUTTON */
+button{
+  padding:10px;
+  margin:5px 0;
+  width:100%;
+  border:none;
+  border-radius:6px;
+  background:#007bff;
+  color:#fff;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+button:hover{
+  background:#0056b3;
+}
+
+/* STATUS BADGE */
+.badge{
+  display:inline-block;
+  padding:4px 10px;
+  border-radius:6px;
+  color:#fff;
+  font-size:12px;
+}
+
+.masuk{background:orange;}
+.proses{background:blue;}
+.selesai{background:green;}
+
+/* ITEM LIST */
+.item-row{
+  display:flex;
+  gap:10px;
+  margin-bottom:10px;
+}
+
+.item-row input{
+  flex:1;
+}
+
+/* LIST DATA */
+.list-item{
+  border-bottom:1px dashed #ddd;
+  padding:10px 0;
+}
+
+/* SMALL TEXT */
+.small{
+  font-size:12px;
+  color:#777;
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+  .item-row{
+    flex-direction:column;
+  }
+}
